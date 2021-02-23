@@ -1,0 +1,101 @@
+/* .brand-logo {
+   -color: green;
+} */
+.above-fold {
+   background-image: linear-gradient(to right,white 75%, rgb(204, 200, 200) 25%);
+   background-size: cover;
+   background-repeat: no-repeat;
+   /* background-image: url(https://icbstexas.com/wp-content/uploads/split-color-background-300x222.jpg); */
+   height: 95vh;
+   z-index: -1;
+   vertical-align: middle;
+   position: relative;
+   
+   /* background-image: url(C:\Users\njmon\OneDrive\Desktop\HW\Responsive/Portfolio\Portfolio\Assets\Images\split-color); */
+}
+
+
+
+.nav-wrapper {
+   background-color:white;
+   text-decoration-color: gray;
+}
+
+.nav {
+   margin-bottom: 0%;
+}
+
+.menu {
+   color: gray;
+}
+
+.about-img {
+   margin: 0;
+   background-image: linear-gradient(to bottom, rgb(204, 200, 200) 50%, white 50%);
+   background-size: cover;
+   background-repeat: no-repeat;
+   max-height: 60vh;
+   max-width: 65vh;
+   position: absolute;
+   top: 50%;
+   left: 80%;
+   margin-right: -20%;
+   transform: translate(-50%, -50%);
+   vertical-align: text-bottom;
+}
+
+.about-text {
+   /* background-color: teal; */
+   font-size:50px;
+   font-weight: bold;
+   text-align: center;
+   font: arvo;
+   position: absolute;
+   top: 50%;
+   left: 32%;
+   transform: translate(-50%, -50%);
+}
+.side-bar{
+   top: 50%;
+   right: 0%;
+   transform: translateY(-50%);
+   position: fixed;
+   z-index: 100;
+}
+
+/* .social-links { 
+   height: 20px;
+   width: 20px;
+   padding-top: 12px;
+   margin-top: 10px;
+} */
+
+/* @media only screen and (min-width: 1450px){
+
+   header {
+       position: relative;
+       font-size: 150%;
+       margin-left: 15%;
+       margin-top: 5px;
+       margin-bottom: 5px;
+   }
+   .myImage img {
+       max-width: 50%;
+       height: auto;
+       float: right;
+   }
+   .mobile{
+       display: none;
+   }
+
+}
+
+@media only screen and (max-width: 1449px){
+   .desktop{
+       display: none;
+   }
+   header {
+       margin-top: 35px;
+       margin-left:35px;
+   }
+} */

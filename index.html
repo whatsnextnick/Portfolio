@@ -2,25 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-            
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>          
     <link rel="stylesheet" href="./Assets/CSS/style.css">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
-    <nav>
+    <!--Nav bar-->
+    <nav class="nav">
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo right">Nicholas Monplaisir</a>
+          <a  href="index.html" class="arvo-font 20px center bold black-text text-lighten-2">Nicholas Monplaisir</a>
+
+          <!--menu---------->
           <ul class="left hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li class="active"><a href="collapsible.html">JavaScript</a></li>
+            <li class="active"><a href="index.html" class="black-text text-lighten-2">Home</a></li>
+            <li><a href="contact.html" class="black-text text-lighten-2">Contact</a></li>
+            <li><a href="portfolio.html" class="black-text text-lighten-2">Portfolio</a></li>
           </ul>
         </div>
     </nav>
+    <!--Above the fold image-->
+    <img src="./Assets/Images/propic.jpg" class="about-img col s12 m4 l3" alt="Nicholas Monplaisir's professional headshot"></div>  
+    
+    <!-- Above the fold text -->
+    <h3 class="about-text">Motivated full stack developer </br>
+                          seeking an opportunity to make </br>
+                          a positive impact</h3> 
+    <!-- Above the fold background -->
+    <div class="col s12 m8 l6">
+      <div class="above-fold card grey lighten-3"></div>
+    </div>
+
+    <!-- Social Links -->
+    <div class="side-bar">
+      <ul>
+        <li class="social-links"><a href="https://www.linkedin.com/in/nmonplaisir/" target="_blank"><img src="./Assets/Images/pngegg.png" alt="linkedin"></a></li>
+        <li class="social-links"><a href="https://github.com/whatsnextnick/" target="_blank"><img src="./Assets/Images/pngegg (1).png" alt="github"></a></li>
+      </ul>
+    </div>
+
+    <script>src="script.js"</script>
 </body>
 </html>
