@@ -15,6 +15,7 @@
    background-color:white;
    text-decoration-color: gray;
    margin-bottom: 0%;
+   height: 100%;
 }
 
 .nav{
@@ -22,6 +23,7 @@
 }
 
 .brand-logo {
+   max-height: 100%;
    left: 80%;
 }
 
