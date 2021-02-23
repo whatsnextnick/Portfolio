@@ -1,6 +1,3 @@
-/* .brand-logo {
-   -color: green;
-} */
 .above-fold {
    background-image: linear-gradient(to right,white 75%, rgb(204, 200, 200) 25%);
    background-size: cover;
@@ -14,19 +11,18 @@
    /* background-image: url(C:\Users\njmon\OneDrive\Desktop\HW\Responsive/Portfolio\Portfolio\Assets\Images\split-color); */
 }
 
-
-
 .nav-wrapper {
    background-color:white;
    text-decoration-color: gray;
-}
-
-.nav {
    margin-bottom: 0%;
 }
 
-.menu {
-   color: gray;
+.nav{
+   position: fixed;
+}
+
+.brand-logo {
+   left: 80%;
 }
 
 .about-img {
@@ -64,11 +60,13 @@
 }
 
 /* .social-links { 
-   height: 20px;
+   /* height: 20px;
    width: 20px;
    padding-top: 12px;
-   margin-top: 10px;
-} */
+   margin-top: 10px; */
+   /* max-height:45px;
+   max-width: 45px; 
+    */
 
 /* @media only screen and (min-width: 1450px){
 
