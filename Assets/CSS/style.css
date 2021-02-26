@@ -11,15 +11,24 @@
    /* background-image: url(C:\Users\njmon\OneDrive\Desktop\HW\Responsive/Portfolio\Portfolio\Assets\Images\split-color); */
 }
 
+.row{
+   margin-top: 5%;
+}
+.col{
+   margin: 5%;
+}
+
+
+.nav{
+   position: fixed;
+   border-bottom: none;
+}
+
 .nav-wrapper {
    background-color:white;
    text-decoration-color: gray;
    margin-bottom: 0%;
    height: 100%;
-}
-
-.nav{
-   position: fixed;
 }
 
 .brand-logo {

@@ -2,7 +2,7 @@
 <html lang="en">
 <head> 
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>          
     <link rel="stylesheet" href="./Assets/CSS/style.css">
@@ -23,17 +23,24 @@
         </ul>
       </div>
   </nav>
-  <!--Above the fold image-->
-  <img src="./Assets/Images/propic.jpg" class="about-img col s12 m4 l3" alt="Nicholas Monplaisir's professional headshot"></div>  
-  
-  <!-- Above the fold text -->
-  <h3 class="about-text">Motivated full stack developer </br>
-                        seeking an opportunity to make </br>
-                        a positive impact</h3> 
-  <!-- Above the fold background -->
-  <div class="col s12 m8 l6">
-    <div class="above-fold card grey lighten-3"></div>
-  </div>
+  <!-- <div class="row"> -->
+    <!--Above the fold image-->
+    <div class="section">
+      <img src="./Assets/Images/propic.jpg" class="about-img" alt="Nicholas Monplaisir's professional headshot"></div>  
+    </div>
+
+    <!-- Above the fold text -->
+    <div class="section offset-10px">
+      <h3 class="about-text">Motivated full stack developer </br>
+                            seeking an opportunity to make </br>
+                            a positive impact</h3> 
+    </div>
+    
+    <!-- Above the fold background -->
+    <div class="section">
+      <div class="above-fold card grey lighten-3"></div>
+    </div>
+  <!-- </div> -->
 
   <!-- Social Links -->
   <div class="side-bar">
@@ -42,6 +49,8 @@
       <li class="social-links"><a href="https://github.com/whatsnextnick/" target="_blank"><img src="./Assets/Images/pngegg (1).png" alt="github"></a></li>
     </ul>
   </div>
+
+  
 
   <script>src="script.js"</script>
 </body>
